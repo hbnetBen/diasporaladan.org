@@ -7,7 +7,7 @@
     <link type="text/css" media="all" href="css/all.css" rel="stylesheet">
     <link type="text/css" media="all" href="/css/font-awesome.min.css" rel="stylesheet">
     <title>Political Petition – Just another Your SUPER-powered WP Engine Multisite Install site</title>
-    <link rel="canonical" href="/wechange-political/">
+    <link rel="canonical" href="{{ url('/') }}">
     <meta property="og:title" content="Political Petition">
     <meta property="og:description" content="Just another Your SUPER-powered WP Engine Multisite Install site">
     <meta property="og:url" content="/wechange-political/">
