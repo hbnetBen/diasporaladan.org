@@ -8,8 +8,6 @@
 
 @include('plans')
 
-@include('letter')
-
 @include('updates')
 
 @include('supporters')

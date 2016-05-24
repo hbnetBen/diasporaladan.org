@@ -18,9 +18,6 @@
 					         	<a href="#plan" class="page-scroll">Plan</a>
 					         </li>
 					         <li class="menu-item">
-					         	<a href="#letter" class="page-scroll">Letter</a>
-					         </li>
-					         <li class="menu-item">
 					         	<a href="#updates" class="page-scroll">Updates</a>
 					         </li>
 					         <li class="menu-item">
