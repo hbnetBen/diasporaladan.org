@@ -12,19 +12,19 @@
 				         	<li class="menu-item active">
 				         		<a href="#hero" class="page-scroll">Accueil</a></li>
 					         <li class="menu-item">
-					         	<a href="#petition" class="page-scroll">The Petition</a>
+					         	<a href="#petition" class="page-scroll">La Pétition</a>
 					         </li>
 					         <li class="menu-item">
 					         	<a href="#plan" class="page-scroll">Plan</a>
 					         </li>
 					         <li class="menu-item">
-					         	<a href="#updates" class="page-scroll">Updates</a>
+					         	<a href="#updates" class="page-scroll">Actualités</a>
 					         </li>
 					         <li class="menu-item">
-					         	<a href="#supporters" class="page-scroll">Supporters</a>
+					         	<a href="#supporters" class="page-scroll">Supporteurs</a>
 					         </li>
 					         <li class="menu-item">
-					         	<a href="#sign-it" class="page-scroll">Sign it!</a>
+					         	<a href="#sign-it" class="page-scroll">Signez ici!</a>
 					         </li>
 				      </ul>
 			 	</div>

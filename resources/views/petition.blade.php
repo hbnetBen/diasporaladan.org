@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row content-padding-lg">
 			<div class="col-sm-12 text-center">
-				<h2 class="section-title">The Petition</h2>
+				<h2 class="section-title">La Pétition</h2>
 			</div>
 		</div>
 	</div>

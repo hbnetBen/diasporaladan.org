@@ -3433,8 +3433,9 @@ h5 {
 }
 
 #footer {
-    background: #424242;
-    color: rgba(255, 255, 255, .8)
+    background: rgb(30, 66, 132);;
+    color: rgba(255, 255, 255, .8);
+    border-top: 10px solid rgb(193, 20, 28);
 }
 
 #footer a {
@@ -3500,7 +3501,7 @@ h5 {
 }
 
 .hero {
-    background-color: rgba(86, 86, 86, 1)
+    background-color: rgb(30, 66, 132);
 }
 
 .hero::before {
@@ -3529,7 +3530,7 @@ h5 {
 }
 
 .supporters-container {
-    background-color: rgba(86, 86, 86, 1)
+    background-color: rgb(193, 20, 28);
 }
 
 .supporters-container .avatar {

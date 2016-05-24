@@ -8,7 +8,7 @@
 		<p>
 			<a
 				class="btn btn-primary btn-lg page-scroll hidden-xs"
-				href="#sign-it">Support this Petition Now!
+				href="#sign-it">Supportez cette pétition maintenant!
 			</a>
 		</p>
 	</div>
