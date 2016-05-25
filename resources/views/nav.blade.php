@@ -17,9 +17,9 @@
 					         <li class="menu-item">
 					         	<a href="#plan" class="page-scroll">Plan</a>
 					         </li>
-					         <li class="menu-item">
+					       <!--   <li class="menu-item">
 					         	<a href="#updates" class="page-scroll">Actualités</a>
-					         </li>
+					         </li> -->
 					         <li class="menu-item">
 					         	<a href="#supporters" class="page-scroll">Supporteurs</a>
 					         </li>

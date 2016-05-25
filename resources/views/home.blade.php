@@ -8,7 +8,7 @@
 
 @include('plans')
 
-@include('updates')
+{{--@include('updates')--}}
 
 @include('supporters')
 
