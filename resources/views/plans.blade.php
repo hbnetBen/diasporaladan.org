@@ -10,10 +10,20 @@
 		<div class="row content-padding">
 			<div class="col-sm-5 col-md-4">
 				<div id="side" class="">
-					<a href="/images/2340505105_e24c2b252f_o.jpg" data-lightbox-gallery="photo_gallery" class="link-image fs-lightbox-element" rel="lightbox" title="2340505105_e24c2b252f_o"><img alt="" src="images/Install site_files/2340505105_e24c2b252f_o-1024x683.jpg" class="attachment-large size-large wp-post-image" alt="2340505105_e24c2b252f_o" srcset="/images/2340505105_e24c2b252f_o-1024x683.jpg 1024w, /images/2340505105_e24c2b252f_o-300x200.jpg 300w" sizes="(max-width: 650px) 100vw, 650px"></a>
+					<a href="/images/tardieu/3.jpg">
+						<img src="/images/tardieu/3.jpg">
+					</a>
 					<div class="row petition-gallery">
-					<div class="col-xs-6"><a href="/images/5352296368_2aa4a96cbe_o.jpg" class="link-image fs-lightbox-element" data-lightbox-gallery="photo_gallery" rel="lightbox" title="The Petition"><img alt="" src="images/Install site_files/5352296368_2aa4a96cbe_o-300x200.jpg" class="attachment-medium size-medium" alt="5352296368_2aa4a96cbe_o" srcset="/images/5352296368_2aa4a96cbe_o-300x200.jpg 300w, /images/5352296368_2aa4a96cbe_o-1024x682.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px"></a></div>
-					<div class="col-xs-6"><a href="/images/5352294682_88ba9891b9_o.jpg" class="link-image fs-lightbox-element" data-lightbox-gallery="photo_gallery" rel="lightbox" title="The Petition"><img alt="" src="images/Install site_files/5352294682_88ba9891b9_o-300x199.jpg" class="attachment-medium size-medium" alt="5352294682_88ba9891b9_o" srcset="/images/5352294682_88ba9891b9_o-300x199.jpg 300w, /images/5352294682_88ba9891b9_o-1024x680.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px"></a></div>
+						<div class="col-xs-6">
+							<a href="/images/tardieu/2.jpg">
+								<img src="/images/tardieu/2.jpg">
+							</a>
+						</div>
+						<div class="col-xs-6">
+							<a href="/images/tardieu/4.jpg">
+								<img src="/images/tardieu/4.jpg">
+							</a>
+						</div>
 				   	</div>
 				</div>
 			</div>

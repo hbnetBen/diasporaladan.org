@@ -2,14 +2,14 @@
 	<div class="container" id="petition-validation">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-		      		<h2 class="section-title">Sign it!</h2>
+		      		<h2 class="section-title">Signez ici!</h2>
 			</div>
 		</div>
 	</div>
-	<div class="container" id="sign-row">
+	<div class="container" id="sign row">
 		<div class="row">
-	      		<div class="col-md-4 col-md-offset-2 col-sm-6" id="sign-list">
-			         <ul class="sharing">
+	      		<!-- <div class="col-md-4 col-md-offset-2 col-sm-6" id="sign-list">
+			        <ul class="sharing">
 			            	<li>
 			            		<a
 			            			rel="nofollow"
@@ -57,28 +57,21 @@
 			            		</a>
 			            	</li>
 			         </ul>
-	      		</div>
-	      		<div class="col-md-4  col-sm-5 col-sm-offset-1">
+	      		</div> -->
+	      		<div class="col-md-8 col-sm-8 col-sm-offset-2">
 	         		<form id="sign-petition" method="post">
-			            	<div class="form-group">
-			            		<input
-			            			type="text"
-			            			class="form-control email"
-			            			name="email"
-			            			placeholder="Adresse Email">
-			            	</div>
-			            	<div class="form-group">
-			            		<input type="text"
-			            		class="form-control fname"
-			            		name="firstname"
-			            		placeholder="Prénom">
-			            	</div>
 			            	<div class="form-group">
 			            		<input
 			            			type="text"
 			            			class="form-control lname"
 			            			name="lastname"
 			            			placeholder="Nom">
+			            	</div>
+			            	<div class="form-group">
+			            		<input type="text"
+			            		class="form-control fname"
+			            		name="firstname"
+			            		placeholder="Prénom">
 			            	</div>
 			            	<div class="form-group">
 			            		<input
@@ -93,6 +86,13 @@
 			            			class="form-control lname"
 			            			name="telephone"
 			            			placeholder="Numéro de téléphone">
+			            	</div>
+			            	<div class="form-group">
+			            		<input
+			            			type="text"
+			            			class="form-control email"
+			            			name="email"
+			            			placeholder="Adresse Email">
 			            	</div>
 			            	<div class="form-group">
 			            		<textarea
