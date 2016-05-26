@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <link type="text/css" media="all" href="css/all.css" rel="stylesheet">
     <link type="text/css" media="all" href="/css/font-awesome.min.css" rel="stylesheet">
-    <title>Political Petition – Just another Your SUPER-powered WP Engine Multisite Install site</title>
+    <title>{{ config('site.name') }}</title>
     <link rel="canonical" href="{{ url('/') }}">
     <meta property="og:title" content="Political Petition">
     <meta property="og:description" content="Just another Your SUPER-powered WP Engine Multisite Install site">
