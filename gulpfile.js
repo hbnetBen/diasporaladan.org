@@ -19,7 +19,13 @@ elixir(function(mix) {
         // .less(['bootstrap.less', 'app.less'])
         .styles(['bootstrap.min.css', 'main.css'])
 
-        .scripts(['jquery.js', 'angular.min.js', 'bootstrap.min.js', 'jquery.easing.js', 'app.js'])
+        .scripts([
+        		'jquery.js',
+        		'angular.min.js',
+        		'bootstrap.min.js',
+        		'jquery.easing.js',
+        		'form.js',
+        		'app.js'])
 
         // .version(['css/app.css', 'js/all.js'])
 });

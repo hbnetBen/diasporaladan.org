@@ -12,5 +12,5 @@
     <meta property="og:description" content="Just another Your SUPER-powered WP Engine Multisite Install site">
     <meta property="og:url" content="/wechange-political/">
 </head>
-<body class="home page page-id-39 page-template page-template-page-templates page-template-one-page page-template-page-templatesone-page-php one-page" data-spy="scroll" data-target="#main-nav" data-offset="60">
+<body class="home page page-id-39 page-template page-template-page-templates page-template-one-page page-template-page-templatesone-page-php one-page" data-spy="scroll" data-target="#main-nav" data-offset="60" ng-app="diaspora">
       <div id="content">
