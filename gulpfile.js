@@ -30,5 +30,5 @@ elixir(function(mix) {
                  'services.js',
         		'app.js'])
 
-        // .version(['css/app.css', 'js/all.js'])
+        .version(['css/all.css', 'js/all.js'])
 });

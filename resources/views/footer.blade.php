@@ -21,7 +21,7 @@
          </div>
 </footer>
 
-<script src="js/all.js"></script>
+<script src="{{ elixir('js/all.js') }}"></script>
 
 </body>
 </html>
