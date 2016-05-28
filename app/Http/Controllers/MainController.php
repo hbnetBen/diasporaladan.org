@@ -33,7 +33,7 @@ class MainController extends Controller
         // if ( ! App::isLocal() )
         // {
 
-            $data['titre'] = 'Inscription Réussie!';
+            $data['titre'] = 'Signature Réussie!';
 
             $beautymail = app()->make(Beautymail::class);
 
@@ -53,36 +53,15 @@ class MainController extends Controller
             }
         // }
 
-        User::create($data);
+         User::create($data);
 
-        return $response = ['success' => true, 'status' => 1];
-    }
+         $count = User::count();
 
-    public function postContact(Request $request)
-    {
-    	$data = $request->all();
-
-        $data['fullname'] = $request->input('firstname') . ' ' . $request->input('lastname');
-    	$data['titre'] = 'Nouveau contact';
-    	$data['body'] = $data['message'];
-
-    	$beautymail = app()->make(Beautymail::class);
-
-	    $beautymail->send('emails.contact', $data, function($message) use ($data)
-	    {
-	        $message
-	            ->from( $data['email'], $data['firstname'] . ' ' . $data['lastname'] )
-	            ->to( config('site.email'), config('site.name') )
-	            ->subject($data['titre'])
-	            ->replyTo( $data['email'] );
-	    });
-
-    	if (Mail::failures())
-    	{
-		        // return response showing failed emails
-		}
-
-    	return $response = ['success' => true];
+         return $response = [
+             'success' => true,
+             'status' => 1,
+             'count' => $count
+         ];
     }
 
     public function getCount()

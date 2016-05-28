@@ -17,14 +17,17 @@ elixir(function(mix) {
  //        	.copy('vendor/bower/jquery/dist/jquery.min.js', 'resources/assets/js/jquery.js')
 
         // .less(['bootstrap.less', 'app.less'])
-        .styles(['bootstrap.min.css', 'main.css'])
+        .styles(['bootstrap.min.css', 'animate.css', 'main.css'])
 
         .scripts([
         		'jquery.js',
         		'angular.min.js',
+        		'angular-animate.min.js',
         		'bootstrap.min.js',
         		'jquery.easing.js',
         		'form.js',
+                 'counter.js',
+                 'services.js',
         		'app.js'])
 
         // .version(['css/app.css', 'js/all.js'])

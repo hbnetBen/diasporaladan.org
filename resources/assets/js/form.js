@@ -1,14 +1,17 @@
 'use strict'
 
-angular.module('diaspora', [])
+angular.module('diaspora', ['ngAnimate'])
 
-.controller('RegistrationController', ['$scope', '$http', function($scope, $http)
+.controller('RegistrationController', ['$scope', '$http', 'App', '$rootScope', function($scope, $http, App, $rootScope)
 {
 	$scope.getRegistered = function()
 	{
 		$http.get('/count').success(function( response )
 		{
-			$scope.registered = response + ' personnes se sont déjà inscrites';
+			console.log(response);
+			App.count = response;
+
+			$rootScope.$broadcast('COUNT_READY');
 		});
 	}
 
@@ -26,6 +29,10 @@ angular.module('diaspora', [])
 
 			$scope.formProcessing = false;
 			$scope.doneProcessing = true;
+			App.count = response.count;
+
+			// Event to alert the new count
+			$rootScope.$broadcast('COUNT_READY');
 		});
 	}
 
@@ -34,38 +41,7 @@ angular.module('diaspora', [])
 		$scope.doneProcessing = false;
 		$scope.inputFocus = true;
 		$scope.user = {};
-		$scope.getRegistered();
 	}
-
-
 
 	$scope.getRegistered();
-
-}])
-
-.controller('ContactController', ['$scope', '$http', function($scope, $http)
-{
-	$scope.processContactForm = function()
-	{
-		$scope.inputFocus = false;
-		$scope.formProcessing = true;
-
-		// console.log($scope.user);
-
-		$http.post('/contact', $scope.contact).success(function(response)
-		{
-			console.log(response);
-
-			$scope.formProcessing = false;
-			$scope.doneContacting = true;
-		});
-	}
-
-	$scope.newContactProcess = function()
-	{
-		$scope.doneContacting = false;
-		$scope.inputFocus = true;
-		$scope.contact = {};
-	}
-
 }]);
