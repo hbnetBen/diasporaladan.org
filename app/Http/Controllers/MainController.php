@@ -17,9 +17,10 @@ use GeoIP;
 
 class MainController extends Controller
 {
-        public function getIndex()
+        public function getIndex(Request $request)
         {
-    	return view('home');
+            	$location = GeoIP::getLocation($request->ip());
+    		return view('home', compact('location'));
         }
 
     public function postRegister(Request $request)
