@@ -11,9 +11,6 @@
 			                 	<strong class="counter" ng-bind="registered">
 			                 		  @{{ registered }}
 			                         </strong> Supporteurs déjà.
-			                         <small>
-			                         		<a href="#sign-it" class="page-scroll">Soyez l'un(e) d'entre eux</a>
-			                         	</small>
 			                 </h3>
                			</div>
             		</div>

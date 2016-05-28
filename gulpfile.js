@@ -17,7 +17,11 @@ elixir(function(mix) {
  //        	.copy('vendor/bower/jquery/dist/jquery.min.js', 'resources/assets/js/jquery.js')
 
         // .less(['bootstrap.less', 'app.less'])
-        .styles(['bootstrap.min.css', 'animate.css', 'main.css'])
+        .styles([
+        		'bootstrap.min.css',
+        		'animate.css',
+        		'lightbox.min.css',
+        		'main.css'])
 
         .scripts([
         		'jquery.js',
@@ -25,6 +29,7 @@ elixir(function(mix) {
         		'angular-animate.min.js',
         		'bootstrap.min.js',
         		'jquery.easing.js',
+        		'lightbox.min.js',
         		'form.js',
                  'counter.js',
                  'services.js',

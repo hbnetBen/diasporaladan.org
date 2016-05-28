@@ -10,16 +10,16 @@
 		<div class="row content-padding">
 			<div class="col-sm-5 col-md-4">
 				<div id="side" class="">
-					<a href="/images/tardieu/1.jpg">
+					<a href="/images/tardieu/1.jpg" data-lightbox="roadtrip">
 						<img src="/images/tardieu/1.jpg"></a>
 					<div class="row petition-gallery">
 						<div class="col-xs-6">
-							<a href="/images/tardieu/4.jpg">
+							<a href="/images/tardieu/4.jpg" data-lightbox="roadtrip">
 								<img src="/images/tardieu/4.jpg">
 							</a>
 						</div>
 						<div class="col-xs-6">
-							<a href="/images/tardieu/5.jpg">
+							<a href="/images/tardieu/5.jpg" data-lightbox="roadtrip">
 								<img src="/images/tardieu/5.jpg">
 							</a>
 						</div>
