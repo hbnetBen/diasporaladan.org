@@ -5,7 +5,7 @@
 	 		<small>par l'honorable député Jerry Tardieu</small></h1>
 		<p>
 			<a
-				class="btn btn-primary btn-lg page-scroll hidden-xs"
+				class="btn btn-primary btn-lg page-scroll"
 				href="#sign-it">Supportez cette pétition maintenant!
 			</a>
 		</p>
