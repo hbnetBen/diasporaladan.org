@@ -13,6 +13,7 @@ use Mail;
 use App\User;
 use Cache;
 use App;
+use GeoIP;
 
 class MainController extends Controller
 {
@@ -93,6 +94,9 @@ class MainController extends Controller
 
     public function getIp(Request $request)
     {
-    	return $request->ip();
+
+    	$location = GeoIP::getLocation($request->ip());
+
+    	return $location;
     }
 }
