@@ -171,8 +171,7 @@
 
 	      				<p>
 	      					Nous avons remarqué que vous êtes en Haiti. Et de ce fait n'êtes pas autorisé(e) à signer cette pétition.<br>
-	      					Mais vous pouvez la partarger sur vos comptes de réseaux sociaux personnels afin que vos amis vivant à l'étranger puissent la signer.:
-
+	      					Mais vous pouvez la partarger sur vos comptes de réseaux sociaux personnels afin que vos amis vivant à l'étranger puissent la signer:
 	      				</p>
 					<ul class='sharing'>
 						<li><a target="blank" rel='nofollow' href='http://www.facebook.com/sharer.php?u={{ config('site.url') }}&t=Signez+la+pétition' class='facebook' title='Facebook'><i class='fa fa-boxed fa-fw fa-facebook'></i> Partager la pétition sur Facebook</a>
