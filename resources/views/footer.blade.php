@@ -7,7 +7,9 @@
                		</aside>
                		<aside class="sidebar-widget widget_text col-sm-4">
                   		<div class="textwidget">
-                     			<p class="text-center"><a href="http://diasporaladan.dev/#" class="fa fa-facebook fa-boxed"></a> <a href="http://diasporaladan.dev/#" class="fa fa-twitter fa-boxed"></a> <a href="http://diasporaladan.dev/#" class="fa fa-google-plus fa-boxed"></a> <a href="http://diasporaladan.dev/#" class="fa fa-pinterest fa-boxed"></a></p>
+                     			<p class="text-center">
+                                                <a target="blank" href="https://web.facebook.com/Diaspora-Ladan-1787659651467406/" class="fa fa-facebook fa-boxed"></a>
+                                                <a target="blank" href="https://twitter.com/diasporaladann" class="fa fa-twitter fa-boxed"></a>
                   		</div>
                		</aside>
                		<aside id="text-5" class="sidebar-widget widget_text col-sm-4">
