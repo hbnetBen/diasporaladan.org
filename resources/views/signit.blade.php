@@ -2,7 +2,7 @@
 	<div class="container" id="sign row">
 		<div class="row">
 	      		<div class="col-md-8 col-sm-8 col-sm-offset-2">
-	      			@if ( 'HT' != $location['isoCode'] )
+	      			@if ( 'US' != $location['isoCode'] )
 		      			<div ng-hide="doneProcessing" class="hide-fade">
 		      				<div class="text-center">
 			      				<h2 class="section-title">Signez ici!</h2>
@@ -165,12 +165,25 @@
 				        	</div>
 				@else
 
-				haiti 
-				haiti 
-				haiti 
-				haiti 
-				haiti 
-				haiti 
+					<div class="text-center">
+		      				<h2 class="section-title">Autorisation refusée.</h2>
+	      				</div>
+
+	      				<p>
+	      					Nous avons remarqué que vous êtes en Haiti. Et de ce fait n'êtes pas autorisé(e) à signer cette pétition.<br>
+	      					Mais vous pouvez la partarger sur vos comptes de réseaux sociaux personnels afin que vos amis vivant à l'étranger puissent la signer.:
+
+	      				</p>
+					<ul class='sharing'>
+						<li><a rel='nofollow' href='http://www.facebook.com/sharer.php?u={{ config('site.url') }}&t=Signez+la+pétition' class='facebook' title='Facebook'><i class='fa fa-boxed fa-fw fa-facebook'></i> Partager la pétition sur Facebook</a>
+						</li>
+						<li><a rel='nofollow' href='http://twitter.com/home?status=Signez+la+pétition&url={{ config('site.url') }}' class='twitter' title='Twitter'><i class='fa fa-boxed fa-fw fa-twitter'></i> Tweeter la pétition sur Petition</a>
+						</li>
+						<li><a rel='nofollow' href="https://plus.google.com/share?url={{ config('site.url') }}&#038;title=Signez+la+pétition" class='google' title='Google'><i class='fa fa-boxed fa-fw fa-google-plus'></i> Partager la pétition sur Google+</a>
+						</li>
+						<li><a rel='nofollow' href='mailto:?subject=Signez+la+pétition&#038;body={{ config('site.url') }}' class='mail' title='Email'><i class='fa fa-boxed fa-fw fa-envelope-o'></i>Partager la pétition par E-mail</a>
+						</li>
+					</ul>
 
 				@endif
 		      	</div>
