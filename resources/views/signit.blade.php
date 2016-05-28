@@ -181,7 +181,7 @@
 						</li>
 						<li><a target="blank" rel='nofollow' href="https://plus.google.com/share?url={{ config('site.url') }}&#038;title=Signez+la+pétition" class='google' title='Google'><i class='fa fa-boxed fa-fw fa-google-plus'></i> Partager la pétition sur Google+</a>
 						</li>
-						<li><a target="blank" rel='nofollow' href='mailto:?subject=Signez+la+pétition&#038;body={{ config('site.url') }}' class='mail' title='Email'><i class='fa fa-boxed fa-fw fa-envelope-o'></i>Partager la pétition par E-mail</a>
+						<li><a target="blank" rel='nofollow' href='mailto:?subject=Signez+la+pétition&body={{ config('site.url') }}' class='mail' title='Email'><i class='fa fa-boxed fa-fw fa-envelope-o'></i>Partager la pétition par E-mail</a>
 						</li>
 					</ul>
 
