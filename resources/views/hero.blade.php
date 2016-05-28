@@ -6,7 +6,7 @@
 		<p>
 			<a
 				class="btn btn-primary btn-lg page-scroll"
-				href="#sign-it">Supportez cette pétition maintenant!
+				href="#sign-it">Supportez cette pétition!
 			</a>
 		</p>
 	</div>
