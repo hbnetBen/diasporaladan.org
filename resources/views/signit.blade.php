@@ -177,7 +177,7 @@
 					<ul class='sharing'>
 						<li><a rel='nofollow' href='http://www.facebook.com/sharer.php?u={{ config('site.url') }}&t=Signez+la+pétition' class='facebook' title='Facebook'><i class='fa fa-boxed fa-fw fa-facebook'></i> Partager la pétition sur Facebook</a>
 						</li>
-						<li><a rel='nofollow' href='http://twitter.com/home?status=Signez+la+pétition&url={{ config('site.url') }}' class='twitter' title='Twitter'><i class='fa fa-boxed fa-fw fa-twitter'></i> Tweeter la pétition sur Petition</a>
+						<li><a rel='nofollow' href="https://twitter.com/intent/tweet?text={{ config('site.name') }}&via={{config('site.twitter')}}&url={{config('site.url')}} class='twitter' title='Twitter'><i class='fa fa-boxed fa-fw fa-twitter'></i> Tweeter la pétition sur Petition</a>
 						</li>
 						<li><a rel='nofollow' href="https://plus.google.com/share?url={{ config('site.url') }}&#038;title=Signez+la+pétition" class='google' title='Google'><i class='fa fa-boxed fa-fw fa-google-plus'></i> Partager la pétition sur Google+</a>
 						</li>
