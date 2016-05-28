@@ -11,6 +11,7 @@
     <meta property="og:title" content="{{ config('site.name') }}">
     <meta property="og:description" content="{{ config('site.description') }}">
     <meta property="og:url" content="{{ config('site.url') }}">
+    <meta property="og:image" content="/images/{{ config('site.logo') }}">
 </head>
 <body data-spy="scroll" ng-app="diaspora">
       <div id="content">
