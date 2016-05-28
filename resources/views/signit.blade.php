@@ -2,7 +2,7 @@
 	<div class="container" id="sign row">
 		<div class="row">
 	      		<div class="col-md-8 col-sm-8 col-sm-offset-2">
-	      			@if ( 'US' != $location['isoCode'] )
+	      			@if ( 'HT' != $location['isoCode'] )
 		      			<div ng-hide="doneProcessing" class="hide-fade">
 		      				<div class="text-center">
 			      				<h2 class="section-title">Signez ici!</h2>
