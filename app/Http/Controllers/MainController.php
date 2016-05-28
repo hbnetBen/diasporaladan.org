@@ -90,4 +90,9 @@ class MainController extends Controller
                     ->take(10)
                     ->get();
     }
+
+    public function getIp(Request $request)
+    {
+    	return $request->ip();
+    }
 }
