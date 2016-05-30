@@ -14,12 +14,41 @@ use App\User;
 use Cache;
 use App;
 use GeoIP;
+use Lava;
 
 class MainController extends Controller
 {
         public function getIndex(Request $request)
         {
             	$location = GeoIP::getLocation($request->ip());
+
+        		$popularity = Cache::rememberForever('popularCountries', function()
+	        {
+	        		$countries = User::pluck('country');
+
+	            	$uniqueCountries =  $countries->unique();
+
+			$popularity = Lava::DataTable();
+
+		    	$popularity->addStringColumn('Pays')
+			         ->addNumberColumn('Popularité');
+
+			$uniqueCountries->each(function($country) use ($countries, $popularity)
+			{
+				$filtered = $countries->filter(function ($item) use ($country)
+				{
+				    	return $item == $country;
+				});
+
+				$popularity->addRow(array($country, $filtered->count()));
+			});
+
+			return $popularity;
+
+	        });
+
+		$chart = Lava::GeoChart('Popularity', $popularity);
+
     		return view('home', compact('location'));
         }
 
@@ -31,6 +60,9 @@ class MainController extends Controller
         }
 
         $data = $request->all();
+
+        $location = GeoIP::getLocation($request->ip());
+       	$data['country'] = $location['country'];
 
         // if ( ! App::isLocal() )
         // {
@@ -59,6 +91,8 @@ class MainController extends Controller
 
          $count = User::count();
 
+         Cache::forget('popularCountries');
+
          return $response = [
              'success' => true,
              'status' => 1,
@@ -71,27 +105,27 @@ class MainController extends Controller
         // $registered = User::count();
         return User::count();
 
-        $value = Cache::remember('users', 0, function()
-        {
-            return User::count();
-        });
+        // $value = Cache::remember('users', 0, function()
+        // {
+        //     return User::count();
+        // });
     }
 
-    public function getParticipants()
-    {
-        $users = User::latest()->paginate(50);
-        $title = 'Liste des participants';
+    // public function getParticipants()
+    // {
+    //     $users = User::latest()->paginate(50);
+    //     $title = 'Liste des participants';
 
-        return view('users', compact('users', 'title'));
-    }
+    //     return view('users', compact('users', 'title'));
+    // }
 
-    public function getSearch($name)
-    {
-        return User::where('firstname', 'LIKE', "%$name%")
-                    ->orWhere('lastname', 'LIKE', "%$name%")
-                    ->take(10)
-                    ->get();
-    }
+    // public function getSearch($name)
+    // {
+    //     return User::where('firstname', 'LIKE', "%$name%")
+    //                 ->orWhere('lastname', 'LIKE', "%$name%")
+    //                 ->take(10)
+    //                 ->get();
+    // }
 
     public function getIp(Request $request)
     {

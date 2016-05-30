@@ -56,7 +56,6 @@
 					</strong>
 				</p>
 				<ul class="list-unstyled">
-					<li>Haïti</li>
 					<li>La diaspora Haïtienne dans le monde</li>
 					<li>Biographie de Jerry Tardieu</li>
 					<li>Quelques prix, médailles et trophées octroyés à Jerry Tardieu</li>

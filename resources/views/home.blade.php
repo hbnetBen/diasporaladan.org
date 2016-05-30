@@ -1,17 +1,19 @@
-@include('header')
+@extends('layouts.main')
 
-@include('nav')
+@section('content')
 
-@include('hero')
+	@include('hero')
 
-@include('petition')
+	@include('petition')
 
-@include('plans')
+	@include('plans')
 
-{{--@include('updates')--}}
+	{{--@include('updates')--}}
 
-@include('supporters')
+	@include('supporters')
 
-@include('signit')
+	@include('signit')
 
-@include('footer')
+	@include('chart')
+
+@stop

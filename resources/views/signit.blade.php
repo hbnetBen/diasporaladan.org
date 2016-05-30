@@ -166,7 +166,7 @@
 				@else
 
 					<div class="text-center">
-		      				<h2 class="section-title">Autorisation refusée.</h2>
+		      				<h2 class="section-title">Accès refusé.</h2>
 	      				</div>
 
 	      				<p>

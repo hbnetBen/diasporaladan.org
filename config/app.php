@@ -151,12 +151,13 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
-         Snowfire\Beautymail\BeautymailServiceProvider::class,
-         Torann\GeoIP\GeoIPServiceProvider::Class,
+        	App\Providers\AppServiceProvider::class,
+        	App\Providers\AuthServiceProvider::class,
+        	App\Providers\EventServiceProvider::class,
+        	App\Providers\RouteServiceProvider::class,
+        	Snowfire\Beautymail\BeautymailServiceProvider::class,
+        	Torann\GeoIP\GeoIPServiceProvider::Class,
+        	Khill\Lavacharts\Laravel\LavachartsServiceProvider::Class
 
     ],
 
@@ -204,6 +205,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'GeoIP' => Torann\GeoIP\GeoIPFacade::class
+
 
     ],
 

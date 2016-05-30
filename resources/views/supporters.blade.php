@@ -3,14 +3,14 @@
         		<div class="container">
             		<div class="row content-padding-lg">
                			<div class="col-sm-12 text-center">
-                  			<h2 class="section-title">Supporteurs</h2>
+                  			<h2 class="section-title">Signataires</h2>
 			                 <br>
 			                 <br>
 			                 <br>
 			                 <h3>
 			                 	<strong class="counter" ng-bind="registered">
 			                 		  @{{ registered }}
-			                         </strong> Supporteurs déjà.
+			                         </strong> signataires déjà.
 			                 </h3>
                			</div>
             		</div>
