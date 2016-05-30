@@ -1641,12 +1641,13 @@ h6 a {
     font-size: 2rem;
     letter-spacing: -1px;
     top: 3px;
-    position: relative
+    position: relative;
 }
 
 #logo img {
     -webkit-transition: none;
-    transition: none
+    transition: none;
+    height: 3em;
 }
 
 .toggle-nav-label,
