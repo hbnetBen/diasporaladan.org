@@ -1,13 +1,13 @@
-<section id="plan" class="post-9 page type-page status-publish has-post-thumbnail hentry">
+<section id="plan" class="paddingTop3 hentry">
 	<div class="container">
-		<div class="row content-padding-lg">
+		<div class="row">
 			<div class="col-sm-12 text-center">
 				<h2 class="section-title">Plan d’actions</h2>
 			</div>
 		</div>
 	</div>
 	<div class="container" id="affix">
-		<div class="row content-padding">
+		<div class="row">
 			<div class="col-sm-5 col-md-4">
 				<div id="side" class="">
 					<a href="/images/tardieu/3.jpg" data-lightbox="roadtrip">

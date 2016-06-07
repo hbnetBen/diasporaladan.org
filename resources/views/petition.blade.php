@@ -1,6 +1,6 @@
-<section id="petition" class="post-9 page type-page status-publish has-post-thumbnail hentry">
+<section id="petition" class="paddingTop3 hentry">
 	<div class="container">
-		<div class="row content-padding-lg">
+		<div class="row">
 			<div class="col-sm-12 text-center">
 				<h2 class="section-title">La Pétition</h2>
 			</div>

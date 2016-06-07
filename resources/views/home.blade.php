@@ -8,7 +8,9 @@
 
 	@include('plans')
 
-	{{--@include('updates')--}}
+	@include('diaspora')
+
+	@include('biographie')
 
 	@include('supporters')
 

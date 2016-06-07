@@ -21,7 +21,7 @@
 					         	<a href="#diaspora" class="page-scroll">Diaspora</a>
 					         </li>
  						<li class="menu-item">
-					         	<a href="#bio" class="page-scroll">Biographie</a>
+					         	<a href="#biographie" class="page-scroll">Biographie</a>
 					         </li>
 					       <!--   <li class="menu-item">
 					         	<a href="#updates" class="page-scroll">Actualités</a>
