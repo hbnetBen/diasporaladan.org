@@ -27,7 +27,8 @@
 				</div>
 			</div>
 			<div class="col-sm-7 col-md-7 col-md-offset-1">
-				<h1>Pétition pour une révision constitutionnelle en faveur des haïtiens vivant à l’étranger.</h1>
+				<h2>Pétition pour une révision constitutionnelle devant permettre à la diaspora Haïtienne
+	 	 d'élir ses représentants au parlement Haïtien.</h2>
 				<p class="lead">
 					En signant cette pétition, ajoutez votre voix à celles de l’Honorable Jerry Tardieu et aux millions de compatriotes vivant à l’étranger qui exigent que la constitution haïtienne prévoie des sièges au parlement haïtien pour des représentants de la diaspora !
 				</p>
