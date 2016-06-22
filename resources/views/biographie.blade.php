@@ -29,7 +29,7 @@
 							Président Directeur-Général<br>
 							Société de Construction d’Immeubles et d’Ouvrages Publics SA:<br><br>
 							Bureau : 115 Avenue Panaméricaine - Pétion-Ville Haiti<br><br>
-							Courriel : <a href="mailto:jerrytardieu@oasishaiti.com">jerrytardieu@oasishaiti.com</a><br>
+							Courriel : <a href="mailto:jerrytardieu@gmail.com">jerrytardieu@gmail.com</a><br>
 							Site web : <a href="http://www.jerrytardieu.com" target="blank">JerryTardieu.com</a>
 						</strong>
 					</p>

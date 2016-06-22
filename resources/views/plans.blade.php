@@ -7,7 +7,7 @@
 		</div>
 	</div>
 	<div class="container" id="affix">
-		<div class="row">
+		<div class="row content-padding">
 			<div class="col-sm-5 col-md-4">
 				<div id="side" class="">
 					<a href="/images/tardieu/3.jpg" data-lightbox="roadtrip">

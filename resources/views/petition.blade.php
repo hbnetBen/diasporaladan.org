@@ -45,22 +45,7 @@
 				<p>
 					J’invite mes compatriotes vivant a l’étranger a signer cette pétition pour m’appuyer dans cet effort. Avec ses propres représentants au parlement, notre diaspora devient une force incontournable pour le relèvement national.
 				</p>
-				<p>
-					<strong>Jerry Tardieu<br>
 
-					<small>Député de Pétion-Ville</small><br>
-
-					<small>Président du Groupe des parlementaires</small><br>
-
-					à l’écoute du peuple
-					</strong>
-				</p>
-				<ul class="list-unstyled">
-					<li>La diaspora Haïtienne dans le monde</li>
-					<li>Biographie de Jerry Tardieu</li>
-					<li>Quelques prix, médailles et trophées octroyés à Jerry Tardieu</li>
-					<li>Le plan d’actions de Jerry Tardieu pour la diaspora haïtienne</li>
-				</ul>
 			</div>
 		</div>
 	</div>
