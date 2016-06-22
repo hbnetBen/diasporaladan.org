@@ -151,10 +151,7 @@
 		                       		</form>
 		                       	</div>
 		                       	<div ng-show="doneProcessing" class="text-center show-fade">
-			      			<h3 class="section-title text-success">Félicitations! Signature réussie.</h3>
-			      			<p>
-			                            	Veuillez consulter votre e-mail. vous avez reçu un e-mail de confirmation.
-			      			</p>
+			      			<h3 class="section-title text-success">Merci de votre support!</h3>
 				                 <p>
 				                        	<button
 				                            	class="btn btn-info"
