@@ -27,7 +27,7 @@
 					         	<a href="#updates" class="page-scroll">Actualités</a>
 					         </li> -->
 					         <li class="menu-item">
-					         	<a href="#supporters" class="page-scroll">Signataires</a>
+					         	<a href="#supporters" class="page-scroll">Pétionnaires</a>
 					         </li>
 					         <li class="menu-item">
 					         	<a href="#sign-it" class="page-scroll">Signez ici!</a>

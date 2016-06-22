@@ -66,8 +66,7 @@
 					            			name="address"
 					            			placeholder="Adresse physique"
 					            			ng-model="user.address"
-				                                        	ng-required="true"
-				                                        	ng-minlength="10">
+				                             ng-required="true">
 				                                  <div
 								    class="text-center text-danger"
 								    ng-show="regForm.address.$invalid && regForm.address.$touched">
