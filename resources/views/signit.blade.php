@@ -126,8 +126,7 @@
 					            			placeholder="Pourquoi c'est important pour vous?"
 					            			rows="3"
 					            			name="reason"
-					            			ng-model="user.reason"
-				                             ng-minlength="140"></textarea>
+					            			ng-model="user.reason"></textarea>
 				                                  <div
 				                                        class="text-center text-danger"
 				                                        ng-show="regForm.reason.$invalid &&
