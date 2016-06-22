@@ -67,7 +67,7 @@ class MainController extends Controller
         // if ( ! App::isLocal() )
         // {
 
-            $data['titre'] = 'Signature Réussie!';
+            $data['titre'] = 'Merci de votre support!';
 
             $beautymail = app()->make(Beautymail::class);
 
@@ -76,7 +76,7 @@ class MainController extends Controller
                 $message
                     ->from( config('site.email'), config('site.name') )
                     ->to( $data['email'], $data['firstname'] . ' ' . $data['lastname'] )
-                    ->cc( config('site.email'), config('site.name') )
+                    ->cc( config('site.gmail'), config('site.name') )
                     ->subject( $data['titre'])
                     ->replyTo( config('site.email') );
             });
