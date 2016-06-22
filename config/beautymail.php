@@ -30,8 +30,8 @@ return [
             'height' => '',
         ],
 
-        'twitter'  => 'ForumTelecomHT',
-        'facebook' => 'ForumTelecomHaiti',
+        'twitter'  => 'diasporaladan',
+        'facebook' => 'Diaspora-Ladan-1787659651467406',
         'flickr'   => null,
     ],
 
