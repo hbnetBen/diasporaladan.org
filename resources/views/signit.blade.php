@@ -127,7 +127,7 @@
 					            			rows="3"
 					            			name="reason"
 					            			ng-model="user.reason"
-				                                        	ng-minlength="140"></textarea>
+				                             ng-minlength="140"></textarea>
 				                                  <div
 				                                        class="text-center text-danger"
 				                                        ng-show="regForm.reason.$invalid &&

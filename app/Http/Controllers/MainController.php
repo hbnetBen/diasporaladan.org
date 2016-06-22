@@ -18,20 +18,20 @@ use Lava;
 
 class MainController extends Controller
 {
-        public function getIndex(Request $request)
-        {
-            	$location = GeoIP::getLocation($request->ip());
+   	public function getIndex(Request $request)
+   	{
+   		$location = GeoIP::getLocation($request->ip());
 
-        		$popularity = Cache::rememberForever('popularCountries', function()
-	        {
-	        		$countries = User::pluck('country');
+ 		$popularity = Cache::rememberForever('popularCountries', function()
+	     {
+        		$countries = User::pluck('country');
 
-	            	$uniqueCountries =  $countries->unique();
+            	$uniqueCountries =  $countries->unique();
 
 			$popularity = Lava::DataTable();
 
 		    	$popularity->addStringColumn('Pays')
-			         ->addNumberColumn('Popularité');
+			     ->addNumberColumn('Popularité');
 
 			$uniqueCountries->each(function($country) use ($countries, $popularity)
 			{
