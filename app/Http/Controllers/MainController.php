@@ -20,7 +20,7 @@ class MainController extends Controller
 {
    	public function getIndex(Request $request)
    	{
-   		$location = GeoIP::getLocation($request->ip());
+   		// $location = GeoIP::getLocation($request->ip());
 
  		$popularity = Cache::rememberForever('popularCountries', function()
 	     {

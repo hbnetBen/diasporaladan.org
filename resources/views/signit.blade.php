@@ -2,7 +2,7 @@
 	<div class="container" id="sign row">
 		<div class="row">
 	      		<div class="col-md-8 col-sm-8 col-sm-offset-2">
-	      			@if ( 'HT' != $location['isoCode'] )
+	      			{{-- @if ( 'HT' != $location['isoCode'] ) --}}
 		      			<div ng-hide="doneProcessing" class="hide-fade">
 		      				<div class="text-center">
 			      				<h2 class="section-title">Signez ici!</h2>
@@ -160,17 +160,18 @@
 				                        	</button>
 				                 </p>
 				        	</div>
-				@else
+				{{-- @else --}}
 
-					<div class="text-center">
+					<!-- <div class="text-center">
 		      				<h2 class="section-title">Accès refusé.</h2>
-	      				</div>
-
+	      				</div> -->
+<!-- 
 	      				<p>
 	      					Nous avons remarqué que vous êtes en Haiti. Et de ce fait n'êtes pas autorisé(e) à signer cette pétition.<br>
 	      					Mais vous pouvez la partarger sur vos comptes de réseaux sociaux personnels afin que vos amis vivant à l'étranger puissent la signer:
-	      				</p>
-					<ul class='sharing'>
+	      				</p> -->
+	      			<hr>
+					<ul class='sharing paddingTop3'>
 						<li><a target="blank" rel='nofollow' href='http://www.facebook.com/sharer.php?u={{ config('site.url') }}&t=Signez+la+pétition' class='facebook' title='Facebook'><i class='fa fa-boxed fa-fw fa-facebook'></i> Partager la pétition sur Facebook</a>
 						</li>
 						<li><a target="blank" rel='nofollow' href="https://twitter.com/intent/tweet?text={{ config('site.name') }}&via={{config('site.twitter')}}&url={{config('site.url')}}" class='twitter' title='Twitter'><i class='fa fa-boxed fa-fw fa-twitter'></i> Tweeter la pétition sur Petition</a>
@@ -181,7 +182,7 @@
 						</li>
 					</ul>
 
-				@endif
+				{{-- @endif --}}
 		      	</div>
 	   	</div>
 	</div>
