@@ -10,6 +10,7 @@ $(function() {
 
     lightbox.option({
       'resizeDuration': 200,
-      'wrapAround': true
+      'wrapAround': true,
+      'albumLabel':"Image %1 de %2"
     });
 });
