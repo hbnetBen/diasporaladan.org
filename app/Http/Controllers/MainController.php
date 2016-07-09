@@ -54,12 +54,12 @@ class MainController extends Controller
 
     public function postRegister(Request $request)
     {
-        if ( User::whereEmail( $request->input('email') )->first() )
-        {
+        if ( User::whereEmail($request->input('email') )->first()) {
             return $response = ['success' => true, 'status' => 2];
         }
 
         $data = $request->all();
+        $data['firstname'] = '';
 
         $location = GeoIP::getLocation($request->ip());
        	$data['country'] = $location['country'];

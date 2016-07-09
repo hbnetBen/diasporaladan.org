@@ -13,61 +13,37 @@
 							name="regForm"
 							ng-submit="processRegistrationForm()"
 							class="regForm">
-			                                	<div class="form-group"
-			                                    ng-class="{'has-error':regForm.lastname.$invalid && regForm.lastname.$touched, 'has-success':regForm.lastname.$valid}">
-			                                  	<input
-				                                        type="text"
-				                                        class="form-control"
-				                                        id="name"
-				                                        name="lastname"
-				                                        placeholder="Nom"
-				                                        ng-model="user.lastname"
-				                                        ng-required="true"
-				                                        ng-minlength="3">
+                       	<div class="form-group"
+                           ng-class="{'has-error':regForm.lastname.$invalid && regForm.lastname.$touched, 'has-success':regForm.lastname.$valid}">
+                         	<input
+                                  type="text"
+                                  class="form-control"
+                                  id="name"
+                                  name="lastname"
+                                  placeholder="Nom Complet"
+                                  ng-model="user.lastname"
+                                  ng-required="true"
+                                  ng-minlength="3">
 								<div class="text-center text-danger"
 									ng-show="regForm.lastname.$invalid && regForm.lastname.$touched">
-									Vous devez entrer votre votre nom
+									Vous devez entrer votre votre nom complet
 								</div>
 								<div class="text-center text-danger"
 								 	ng-show="regForm.lastname.$invalid &&
 								    	regForm.lastname.$error.minlength">
-									Votre nom doit être supérieur à 3 caractères
+									Votre nom complet doit être supérieur à 3 caractères
 								</div>
-			                                	</div>
-			                               	<div class="form-group"
-			                                  	ng-class="{'has-error':regForm.firstname.$invalid && regForm.firstname.$touched, 'has-success':regForm.firstname.$valid}">
-			                                    	<input
-				                                        type="text"
-				                                        class="form-control"
-				                                        id="name"
-				                                        name="firstname"
-				                                        placeholder="Prénom"
-				                                        ng-model="user.firstname"
-				                                        ng-required="true"
-				                                        ng-minlength="3"
-				                                        ng-focus="inputFocus">
-								<div
-								    class="text-center text-danger"
-								    ng-show="regForm.firstname.$invalid && regForm.firstname.$touched">
-								    Vous devez entrer votre prénom
-								</div>
-								<div
-								    class="text-center text-danger"
-								    ng-show="regForm.firstname.$invalid &&
-								    regForm.firstname.$error.minlength">
-								    Votre prénom doit être supérieur à 3 caractères
-								</div>
-			                                	</div>
-			                                	<div class="form-group"
-			                                			ng-class="{'has-error':regForm.address.$invalid && regForm.address.$touched, 'has-success':regForm.address.$valid}">
-					            		<input
-					            			type="text"
-					            			class="form-control lname"
-					            			name="address"
-					            			placeholder="Adresse physique"
-					            			ng-model="user.address"
-				                             ng-required="true">
-				                                  <div
+                    	</div>
+                    	<div class="form-group"
+                    		ng-class="{'has-error':regForm.address.$invalid && regForm.address.$touched, 'has-success':regForm.address.$valid}">
+				      		<input
+				      			type="text"
+				      			class="form-control lname"
+				      			name="address"
+				      			placeholder="Adresse physique"
+				      			ng-model="user.address"
+				             	ng-required="true">
+                         <div
 								    class="text-center text-danger"
 								    ng-show="regForm.address.$invalid && regForm.address.$touched">
 								    Vous devez entrer votre adresse physique

@@ -6,8 +6,7 @@ angular.module('diaspora', ['ngAnimate'])
 {
 	$scope.getRegistered = function()
 	{
-		$http.get('/count').success(function( response )
-		{
+		$http.get('/count').success(function(response) {
 			console.log(response);
 			App.count = response;
 
@@ -16,28 +15,26 @@ angular.module('diaspora', ['ngAnimate'])
 	}
 
 
-	$scope.processRegistrationForm = function()
-	{
+	$scope.processRegistrationForm = function() {
 		$scope.inputFocusc = false;
 		$scope.formProcessing = true;
 
 		// console.log($scope.user);
 
-		$http.post('/register', $scope.user).success(function(response)
-		{
-			console.log(response);
+		$http.post('/register', $scope.user)
+			.success(function(response) {
+				console.log(response);
 
-			$scope.formProcessing = false;
-			$scope.doneProcessing = true;
-			App.count = response.count;
+				$scope.formProcessing = false;
+				$scope.doneProcessing = true;
+				App.count = response.count;
 
-			// Event to alert the new count
-			$rootScope.$broadcast('COUNT_READY');
+				// Event to alert the new count
+				$rootScope.$broadcast('COUNT_READY');
 		});
 	}
 
-	$scope.newRegistrationProcess = function()
-	{
+	$scope.newRegistrationProcess = function() {
 		$scope.doneProcessing = false;
 		$scope.inputFocus = true;
 		$scope.user = {};
