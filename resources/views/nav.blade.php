@@ -32,6 +32,9 @@
 					         <li class="menu-item">
 					         	<a href="#sign-it" class="page-scroll">Signez ici!</a>
 					         </li>
+					         <li class="menu-item">
+					         	<a href="http://blog.diasporaladan.org" target="blank">Blog</a>
+					         </li>
 				      </ul>
 			 	</div>
 			</div>
